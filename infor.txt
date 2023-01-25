@@ -1,0 +1,19 @@
+cores dom costela
+
+preto
+#121214
+
+cores vermelhas da logo
+#B21617
+#6B1D09
+
+branco
+#FFFFFF
+
+cinza
+#D0CBC7
+
+tipografia
+ font-family: 'Caveat', cursive;
+
+font-family: 'Caveat Brush', cursive;
