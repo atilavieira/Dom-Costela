@@ -6,9 +6,9 @@
   }
   
   .menu-bg {
-    grid-column: 2/8;
+    grid-column: 3/8;
     height: 18.75rem;
-   width: auto;
+    width: auto;
     display: flex;
     margin:50px 20px;
     align-items: center;
@@ -53,8 +53,9 @@
       
     }
     .logo {
- margin-left:35%;
-        
+      margin-left: auto;
+      margin-right: auto;
+       
     }
     .menu{
      grid-column: 1/4;    
@@ -67,14 +68,16 @@
       
     }
     .logo {
- margin-left:30%;
- width: 10.5rem;
- height: 10.5rem;
+      margin-left: auto;
+      margin-right: auto;     
+      width: 10.5rem;
+      height: 10.5rem;
         
     }
     .menu{
      grid-column: 1/4; 
-     font-size:10px;   
+     font-size:10px;  
+     padding: 10PX; 
       }
   }
   @media (max-width:400px) {
@@ -84,13 +87,13 @@
       
     }
     .logo {
- margin-left:25%;
+ 
  width: 8.5rem;
  height: 8.5rem;
         
     }
     .menu{
      grid-column: 1/4; 
-     font-size:10px;   
+     font-size:12px;   
       }
   }

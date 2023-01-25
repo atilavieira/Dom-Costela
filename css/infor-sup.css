@@ -21,9 +21,13 @@
   .superinfo a {
     color: white;
   }
-  @media (max-width:600px) {
+  .superinfo a:hover {
+    color:wheat;
+  }
+
+  @media (max-width:800px) {
     .superinfo-bg{
-      display: block;
+      
       height: 85px;
     }
 

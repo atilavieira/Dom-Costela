@@ -41,6 +41,11 @@ img {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
       }
-  }
-
+}
+.separador{
+    grid-column: 3;
+    height: 3px;
+    width: 1000px;
+    background: #121214;
+}
 
