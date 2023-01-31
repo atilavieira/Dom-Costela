@@ -162,18 +162,141 @@ color: white;
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right:  20px;
   z-index: 9999;
   border: none;
   outline: none;
   background-color:#b21617;
   color: white;
   cursor: pointer;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   font-size: 1.5rem;
 }
 
 #myBtn:hover {
   background-color:#f80505;
+}
+@media (max-width: 350px){
+  #myBtn{
+  display: none;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  background-color:red;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 1.5rem;
+  width: 280px;
+  }
+  .cabecario {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    font-size: 1.2rem;
+    }
+    .cabecario img{
+    width: 150px;
+    margin: auto;
+    }
+    .cabecario h1{
+    color: white;
+    }
+    .nav-lista{
+      font-size: 1.2rem;
+      font-family: "Caveat Brush", cursive;
+      display:flex; 
+      flex-wrap: wrap;
+      margin :20px ;
+      align-items: center;
+      justify-content: center;
+      flex-flow: row wrap
+    
+    }
+    .nav-lista li{
+      margin:6px;
+    }
+    
+    
+    .nav-lista a{
+      
+      padding: 3px;
+      color: white;
+      background-color: #b21617;
+      border-radius: 4px;
+      text-align: center;
+    }
+    .nav-lista a:hover{
+      
+      background-color: #f80505;
+    }
+    .lista-card{
+      display: block;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .container-card{
+      background-color: #591202;
+     max-width: 300px;
+      color: white;
+      border-radius: 10px;
+      opacity: 0.9;
+      margin: auto;
+      
+    }
+    .container-card h1{
+      margin: 10px;
+      text-align: center;
+      font-family: "Caveat", cursive;
+      font-size: 2.0rem;
+      color: white;
+    }
+    
+    .card{
+      margin: 10px;
+      align-items: center;
+      text-align: center;
+      
+      border: solid 1px #f2b84b;
+      border-radius: 8px;
+      justify-content: center;
+      background:black;
+      
+    }
+    .card-info img{
+      margin: 10px;
+      border-radius: 15px;
+      max-width: 260px;
+      min-height:100px ;
+    
+      
+      
+     
+    }
+    
+    .card h2{
+      font-family: "Caveat", cursive;
+      color: white;
+      font-size: 1.5rem ;
+    }
+    .card h3{
+      font-family: "Caveat", cursive;
+      color: white;
+      font-size: 1.1rem ;
+    }
+    .card p{
+      font-family: "Caveat", cursive;
+      color: white;
+      font-size: 1.3rem ;
+    }
+    .card-info{
+      display: block;
+    }
+    
+
 }
